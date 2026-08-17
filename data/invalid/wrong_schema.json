@@ -1,0 +1,14 @@
+{
+  "schema_version": 3,
+  "firm": { "region": { "code": "EMEA", "desk": { "cost_centre": 88214,
+    "book": { "portfolio": { "mandate": "relative_value", "position": {
+      "instrument": { "maturity_years": 10, "pay_leg": { "spread_bp": 12,
+        "accrual": {
+          "notional": 250000000.5,
+          "fixed_rate": 0.0327,
+          "accrual_factor": 0.5055555556,
+          "discount_factor": 0.9821,
+          "dv01": 219450.75
+        }
+  } } } } } } } }
+}

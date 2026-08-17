@@ -1,0 +1,44 @@
+{
+  "schema_version": 3,
+  "as_of": "2026-08-16",
+  "reporting_ccy": "USD",
+  "firm": {
+    "lei": "549300XYZ1234567890A",
+    "region": {
+      "code": "EMEA",
+      "clearing_house": "LCH",
+      "desk": {
+        "name": "Rates Flow",
+        "cost_centre": 88214,
+        "book": {
+          "id": "EU-RATES-01",
+          "base_ccy": "EUR",
+          "portfolio": {
+            "id": "PF-9931",
+            "mandate": "relative_value",
+            "position": {
+              "trade_id": "TRD-2026-0814-0007",
+              "direction": "pay_fixed",
+              "instrument": {
+                "type": "IRS",
+                "maturity_years": 10,
+                "pay_leg": {
+                  "index": "EURIBOR-6M",
+                  "spread_bp": 12,
+                  "accrual": {
+                    "day_count": "ACT/360",
+                    "notional": 250000000,
+                    "fixed_rate": 0.0327,
+                    "accrual_factor": 0.5055555556,
+                    "discount_factor": 0.9821,
+                    "dv01": 219450.75
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
